@@ -8,8 +8,7 @@ channel = "stable-23_05"
 language = "python3"
 
 [gitHubImport]
-requiredFiles = [".replit", "replit.nix"]
-
+equiredFiles = [".replit", "replit.nix"]
 [deployment]
 run = ["python3", "app.py"]
 deploymentTarget = "cloudrun"
